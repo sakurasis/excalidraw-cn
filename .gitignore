@@ -12,7 +12,6 @@
 .yarn
 *.log
 *.tgz
-dist
 firebase
 logs
 npm-debug.log*
