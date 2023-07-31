@@ -100,7 +100,7 @@
   "engines": {
     "node": ">=14.0.0"
   },
-  "homepage": "./",
+  "homepage": ".",
   "jest": {
     "collectCoverageFrom": [
       "src/**/*.{js,jsx,ts,tsx}"
@@ -146,6 +146,7 @@
     "test:coverage": "react-scripts test --passWithNoTests --coverage --watchAll",
     "autorelease": "node scripts/autorelease.js",
     "prerelease": "node scripts/prerelease.js",
-    "release": "node scripts/release.js"
+    "release": "node scripts/release.js",
+    "deploy": "gh-pages -d build"
   }
 }
