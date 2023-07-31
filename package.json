@@ -132,7 +132,7 @@
     "fix": "yarn fix:other && yarn fix:code",
     "locales-coverage": "node scripts/build-locales-coverage.js",
     "locales-coverage:description": "node scripts/locales-coverage-description.js",
-    "prepare": "husky install",
+    "prepare": "chmod +x ./node_modules/husky/lib/bin.js && husky install",
     "prettier": "prettier \"**/*.{css,scss,json,md,html,yml}\" --ignore-path=.eslintignore",
     "start": "react-scripts start",
     "start:production": "npm run build && npx http-server build -a localhost -p 5001 -o",
