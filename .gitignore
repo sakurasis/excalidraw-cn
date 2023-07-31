@@ -9,6 +9,9 @@
 .idea
 .vercel
 .vscode
+build
+dist
+node_modules
 .yarn
 *.log
 *.tgz

@@ -35,7 +35,6 @@
     "cross-env": "7.0.3",
     "fake-indexeddb": "3.1.7",
     "firebase": "8.3.3",
-    "gh-pages": "5.0.0",
     "i18next-browser-languagedetector": "6.1.4",
     "idb-keyval": "6.0.3",
     "image-blob-reduce": "3.0.1",
@@ -132,7 +131,7 @@
     "fix": "yarn fix:other && yarn fix:code",
     "locales-coverage": "node scripts/build-locales-coverage.js",
     "locales-coverage:description": "node scripts/locales-coverage-description.js",
-    "prepare": "chmod +x ./node_modules/husky/lib/bin.js && husky install",
+    "prepare": "husky install",
     "prettier": "prettier \"**/*.{css,scss,json,md,html,yml}\" --ignore-path=.eslintignore",
     "start": "react-scripts start",
     "start:production": "npm run build && npx http-server build -a localhost -p 5001 -o",
@@ -147,7 +146,6 @@
     "test:coverage": "react-scripts test --passWithNoTests --coverage --watchAll",
     "autorelease": "node scripts/autorelease.js",
     "prerelease": "node scripts/prerelease.js",
-    "release": "node scripts/release.js",
-    "deploy": "gh-pages -d build"
+    "release": "node scripts/release.js"
   }
 }
