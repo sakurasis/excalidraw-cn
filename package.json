@@ -100,7 +100,7 @@
   "engines": {
     "node": ">=14.0.0"
   },
-  "homepage": "./",
+  "homepage": "https://stanley.github.io/excalidraw-cn",
   "jest": {
     "collectCoverageFrom": [
       "src/**/*.{js,jsx,ts,tsx}"
@@ -147,6 +147,7 @@
     "autorelease": "node scripts/autorelease.js",
     "prerelease": "node scripts/prerelease.js",
     "release": "node scripts/release.js",
+    "predeploy": "yarn run build",
     "deploy": "gh-pages -d build"
   }
 }
