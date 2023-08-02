@@ -87,6 +87,7 @@
     "dotenv": "16.0.1",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-prettier": "3.3.1",
+    "gh-pages": "5.0.0",
     "http-server": "14.1.1",
     "husky": "7.0.4",
     "jest-canvas-mock": "2.4.0",
